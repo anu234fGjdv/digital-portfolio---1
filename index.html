@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<title>Protfolio</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  background-color:#00FFFF;
+}
+
+header {
+    background:#333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: relative; /* Added for positioning the profile photo */
+}
+
+.profile-photo {
+    width: 70px; /* Adjust size as needed */
+    height: 80px; /* Adjust size as needed */
+    border-radius: 20%;
+    object-fit:cover;/* Makes the photo circular */
+   position: absolute; /* Positioning the photo */
+    border: 2px solid #fff;    /* Optional: adds a border */
+    top: 20px; /* Adjust as needed */
+    left: 1px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 3px;
+    margin: 2px;
+}
+
+.section-content {
+            background-color: #fff;
+            padding: 2rem;
+            margin: 0em;
+            border-radius: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align:justify ;
+        }
+h2 {
+    color: #333;
+}
+
+.project {
+    background: ; 
+    padding: 10px;
+    margin: 10px 0;
+  border-radius:5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 5px 0;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+form button {
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    border: none;
+  border-radius:4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #555;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.download-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+
+</style>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Nishanthi P</h1>
+                <img src"Nishanthi.jpg" alt="profile1 " class="profile-photo">
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+           
+    <section id="about">
+        <div class="section-content">
+        <h2>About Me</h2>
+        <p>  Motivated Computer Science graduate with strong programming skills and hands-on experience in Web development.
+            Proficient in Java and Python, with a passion for developing innovative technological solutions.
+            Eager to apply academic knowledge and project experience in a dynamic IT environment.
+            </p>
+    </section>
+     <section id="education">
+    <div class="section-content">
+                <h2>Education</h2>
+                
+              <strong>Bachelor Of Computer Science - </strong>
+              <br>Madras University</br>
+              <p>(2023 - 2025)</p>
+            </div>
+    </section>
+
+    <section id="skills">
+    <div class="section-content">
+                <h2>Skills</h2>
+                <h3>Technical Skills:</h3>
+<ul>
+  <li>HTML, CSS, Java Programming</li>
+  <li>Adobe Creative Suite (Photoshop, Canva)</li>
+  <li>Python Programming Basics</li>
+    <li>MS - word</li>
+    <li>MS - excel</li>
+    <li>MS - powerpoint</li>
+</ul>
+<h3>Soft Skills:</h3>
+<ul>
+  <li>Communication</li>
+  <li>Team Collaboration</li>
+  <li>Problem-Solving</li>
+</ul>
+            </section> 
+              
+            </div>
+    </section>
+    
+    <section id="projects">
+        <div class="section-content">
+        <h2>My Projects</h2>
+        <div class="project">
+            <h3>Project 1</h3>
+            <p>College Portal .<a href="#">View Project</a></p>
+        </div>
+        <div class="project">
+            <h3>Project 2</h3>
+            <p>Github websie. <a href="#">View Project</a></p>
+        </div>
+        <div class="project">
+            <h3>Project 3</h3>
+            <p>IBM SkillsBuild. <a href="#">View Project</a></p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="section-content">
+        <h2>Contact Me</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+                <section id="contact us">
+            <div class="headline-box">
+                <h2>Contact us</h2>
+            </div>
+            <p><strong> Email:</strong> nishanthi14056&gmail.com</p>
+            <p><strong>Phone No:</strong>(8122714233)</p>
+            <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/Nishanthi P" target="_blank">linkedin.com/in/johndoe</a></p>
+        </section>
+           
+    </section>
+        <header>
+        <a href="resume.pdf" class="download-button" download>Download Resume</a>
+            </header> 
+    <footer>
+        <p>&copy; 2023 My Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+</html>
